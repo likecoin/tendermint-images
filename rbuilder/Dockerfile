@@ -1,4 +1,4 @@
-FROM golang:1.18.5-bullseye
+FROM golang:1.19.5-bullseye
 
 ENV DEBIAN_FRONTEND=noninteractive
 RUN apt-get update && apt-get --no-install-recommends -y install \
